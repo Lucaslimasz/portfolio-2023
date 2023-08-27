@@ -21,7 +21,7 @@ export default function Projects() {
         "https://api.github.com/users/Lucaslimasz/repos?per_page=200",
         {
           headers: {
-            Authorization: "Bearer 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",
+            Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
           },
         }
       );
