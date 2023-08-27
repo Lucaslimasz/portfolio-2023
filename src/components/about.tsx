@@ -1,10 +1,11 @@
 import { AiFillGithub } from "react-icons/ai";
 import { BsLinkedin, BsInstagram } from "react-icons/bs";
+import Title from "./title";
 
 export default function About() {
   return (
     <section className="mt-14 lg:mt-0">
-      <h1 className="uppercase font-bold text-sm">Sobre</h1>
+      <Title>Sobre</Title>
       <div className="mt-8 text-sm font-extralight flex flex-col gap-4 max-w-[95%] lg:text-base text-slate-300">
         <p>
           Graduado em Sistemas para Internet, atuo como desenvolvedor frontend

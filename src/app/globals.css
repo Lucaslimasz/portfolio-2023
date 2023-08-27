@@ -4,7 +4,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --principal: #0f172a;
+    --principal: #14001c;
     --light: #e2e8f0;
   }
 }
@@ -20,7 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #f0f0f0;
+  background-color: #2b003b;
   position: relative;
 
   @media (max-width: 768px) {
@@ -31,7 +31,7 @@ body {
 .square {
   width: 600px;
   height: 600px;
-  background-color: #0044ff10;
+  background-color: #1a0024;
   border-radius: 100%;
   filter: blur(70px);
   position: absolute;
