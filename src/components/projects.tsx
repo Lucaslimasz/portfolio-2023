@@ -27,7 +27,7 @@ export default function Projects() {
       );
       const res: IProjects[] = await data.json();
       setProjects(
-        res.flatMap((item) => {
+        res?.flatMap((item) => {
           if (!item.topics.includes("portfolio")) return [];
 
           return {
