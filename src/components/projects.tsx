@@ -42,7 +42,7 @@ export default function Projects() {
   return (
     <section className="w-full max-w-5xl mx-auto px-4">
       <Title>Projetos</Title>
-      <div className="flex gap-4 mt-4 overflow-x-hidden">
+      <div className="flex gap-4 mt-4 config-scroll">
         {projects?.map((item) => {
           return (
             <div
